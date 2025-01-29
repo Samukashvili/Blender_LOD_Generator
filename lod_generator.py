@@ -1,10 +1,18 @@
 bl_info = {
     "name": "LOD Generator",
-    "author": "Your Name",
-    "version": (1, 9),
+    "author": "Giorgi Samukashvili (3DBullet)",
+    "version": (1, 2),
     "blender": (4, 3, 0),
     "location": "View3D > Sidebar > LOD Tools",
-    "description": "Advanced LOD generation with robust texture handling",
+    "description": "LOD Generation tool with texture resizing capabilities.\n\n" 
+                   "Instructions:\n"
+                   "1. Select the desired model\n"
+                   "2. Ensure textures are saved externally (not packed)\n"
+                   "3. Open side panel (N key) > LOD Tools tab\n"
+                   "4. Set LOD count and reduction percentages\n"
+                   "5. Click 'Generate LODs'\n\n"
+                   "Note: Creates LOD folders with resized textures\n"
+                   "Supports PNG/JPG formats | Minimum texture size: 512px",
     "warning": "",
     "category": "Object",
 }
